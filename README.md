@@ -8,6 +8,9 @@ Basically, just get the script, activate & wait for the results.
 
 ## Provided contents
 The script contains the installation of: \
-| No. | Content | Version | Description |
-| --- | --- | --- | --- |
-| 0 | Package updates | | Update dependencies for EDA tool installations |
+| No. | Content | Sub-content | Version | Description |
+| --- | --- | --- | --- | --- |
+| 0 | Package updates | | | Update dependencies for EDA tool installations |
+| | | git | 2.17.1 | For pulling required files |
+| | | gcc | | |
+| | | perl | v5.26.1 | |
