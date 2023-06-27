@@ -7,6 +7,6 @@ This repository contains 02 bash scripts, that will help you set up the basic ED
 Basically, just get the script, activate & wait for the results.
 
 ## Provided contents
-The script contains the installation of:
+The script contains the installation of: \
 | No. | Content | Version | Description |
 | 0 | Package updates | | Update dependencies for EDA tool installations |
