@@ -11,7 +11,7 @@ On to Linux - Ubuntu devices. \
 Basically, just get the script, activate & wait for the results.
 
 ## How-to-use
-\# Get the 2 script files from the repository: auto_eda_setup.sh & deploy_open_pdks.sh \
+\# Get the 2 script files from the repository: auto_eda_setup.sh & deploy_open_pdks.sh. Make sure to put them in home directory. \
 \# Run the following command, *super-user permission is required*\
 \# Sit back and wait for the script to finish. You are good to go.
 > **sudo** **sh** *auto_eda_setup.sh*
