@@ -32,7 +32,7 @@ sudo apt-get install perl	-y
 sudo apt-get install make	-y
 # Install/Update Python3 (Python 3.6+) and PIP (Python Package-Management system)
 sudo apt-get install python3		-y
-sudo apt-get install pip3		-y
+sudo apt-get install python3-pip	-y
 sudo apt-get install python3-venv	-y
 # ***
 
