@@ -16,7 +16,7 @@ Basically, just get the script, activate & wait for the results.
 > **git** clone https://github.com/ducpham2476/csv-open-eda
 
 \# After cloning the repository from Github, copy the 2 scripts file to Home directory
-> cd *./csv-open-eda/* && cp *./auto_eda_setup.sh ./deploy_open_pdks.sh* ~
+> cd *./csv-open-eda/* && cp *./auto_eda_setup.sh ./deploy_open_pdks.sh* ~ \
 > cd ~
 
 \# Run the following command, *super-user permission is required*\
