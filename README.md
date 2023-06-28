@@ -11,7 +11,14 @@ On to Linux - Ubuntu devices. \
 Basically, just get the script, activate & wait for the results.
 
 ## How-to-use
-\# Get the 02 script files from the repository: auto_eda_setup.sh & deploy_open_pdks.sh. Make sure to put them in home directory. \
+\# Clone this repository to your Home directory.
+> **sudo** apt-get install git
+> **git** clone https://github.com/ducpham2476/csv-open-eda
+
+\# After cloning the repository from Github, copy the 2 scripts file to Home directory
+> cd *./csv-open-eda/* && cp *./auto_eda_setup.sh ./deploy_open_pdks.sh* ~
+> cd ~
+
 \# Run the following command, *super-user permission is required*\
 \# Sit back and wait for the script to finish.
 > **sudo** **bash** -x *auto_eda_setup.sh*
