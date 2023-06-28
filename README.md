@@ -12,7 +12,7 @@ Basically, just get the script, activate & wait for the results.
 
 ## How-to-use
 \# Clone this repository to your Home directory.
-> **sudo** apt-get install git
+> **sudo** apt-get install git \
 > **git** clone https://github.com/ducpham2476/csv-open-eda
 
 \# After cloning the repository from Github, copy the 2 scripts file to Home directory
