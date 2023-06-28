@@ -83,7 +83,7 @@ sudo apt-get install python3-venv	-y
 
 # ***
 ## Install Yosys for Design Synthesis
-sudo apt-get install yosys
+sudo apt-get install	yosys 	-y
 
 # ***
 ## Deploy Skywater SKY130nm PDK
@@ -142,7 +142,7 @@ printf '\n# Add magic to the path\nPATH=/opt/magic-8.3/bin:$PATH\n' >> ~/.bashrc
 # Commands for deploying open_pdks
 # Since the newly installed Magic tool will require a new Terminal to start working (Settings in ~/.bashrc need to be reload)
 # A new Terminal will be invoked to execute the below commands using a separate script file instead
-gnome-terminal -- sh -c "bash -c \"sh ./deploy_open_pdks.sh; exec bash\""
+gnome-terminal -- sh -c "bash -c \". ~/.bashrc; sh ./deploy_open_pdks.sh; exec bash\""
 ## The content of deploy_open_pdks.sh is listed below
 # ---
 # ## Deploy open_pdks for compiling PDK
@@ -162,4 +162,3 @@ gnome-terminal -- sh -c "bash -c \"sh ./deploy_open_pdks.sh; exec bash\""
 # ***
 
 # ------------------------------------------------------------------------------------
-
