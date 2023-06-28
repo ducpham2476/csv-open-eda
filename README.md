@@ -15,6 +15,7 @@ Basically, just get the script, activate & wait for the results.
 \# Run the following command, *super-user permission is required*\
 \# Sit back and wait for the script to finish.
 > **sudo** **bash** -x *auto_eda_setup.sh*
+
 \# After the first script is finished, open a new terminal to execute the 2nd command
 > **sudo** **bash** -x *deploy_open_pdks.sh*
 
