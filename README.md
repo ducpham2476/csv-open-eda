@@ -11,10 +11,12 @@ On to Linux - Ubuntu devices. \
 Basically, just get the script, activate & wait for the results.
 
 ## How-to-use
-\# Get the 03 script files from the repository: wrapper.sh, auto_eda_setup.sh, and deploy_open_pdks.sh. Make sure to put them in home directory. \
+\# Get the 02 script files from the repository: auto_eda_setup.sh & deploy_open_pdks.sh. Make sure to put them in home directory. \
 \# Run the following command, *super-user permission is required*\
-\# Sit back and wait for the script to finish. You are good to go.
-> **sudo** **bash** -x *wrapper.sh*
+\# Sit back and wait for the script to finish.
+> **sudo** **bash** -x *auto_eda_setup.sh*
+\# After the first script is finished, open a new terminal to execute the 2nd command
+> **sudo** **bash** -x *deploy_open_pdks.sh*
 
 ## Provided contents
 The script contains the installation of:
