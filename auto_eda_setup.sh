@@ -136,13 +136,15 @@ make
 sudo make install
 ### Add Magic executable path to shell start-up command file
 printf '\n# Add magic to the path\nPATH=/opt/magic-8.3/bin:$PATH\n' >> ~/.bashrc
-
+### Return to Home directory
+cd ~
+#
 # ***
 # OpenPDKs deploration
 # Commands for deploying open_pdks
 # Since the newly installed Magic tool will require a new Terminal to start working (Settings in ~/.bashrc need to be reload)
 # A new Terminal will be invoked to execute the below commands using a separate script file instead
-gnome-terminal -- sh -c "bash -c \". ~/.bashrc; sh ./deploy_open_pdks.sh; exec bash\""
+gnome-terminal -- sh -c "bash -c \". ~/.bashrc; bash -x ./deploy_open_pdks.sh; exec bash\""
 ## The content of deploy_open_pdks.sh is listed below
 # ---
 # ## Deploy open_pdks for compiling PDK
