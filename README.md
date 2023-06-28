@@ -14,7 +14,7 @@ Basically, just get the script, activate & wait for the results.
 \# Get the 03 script files from the repository: wrapper.sh, auto_eda_setup.sh, and deploy_open_pdks.sh. Make sure to put them in home directory. \
 \# Run the following command, *super-user permission is required*\
 \# Sit back and wait for the script to finish. You are good to go.
-> **sudo** **sh** *wrapper.sh*
+> **sudo** **bash** -x *wrapper.sh*
 
 ## Provided contents
 The script contains the installation of:
