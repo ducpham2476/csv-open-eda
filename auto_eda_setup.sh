@@ -139,28 +139,4 @@ printf '\n# Add magic to the path\nPATH=/opt/magic-8.3/bin:$PATH\n' >> ~/.bashrc
 ### Return to Home directory
 cd ~
 #
-# ***
-# OpenPDKs deploration
-# Commands for deploying open_pdks
-# Since the newly installed Magic tool will require a new Terminal to start working (Settings in ~/.bashrc need to be reload)
-# A new Terminal will be invoked to execute the below commands using a separate script file instead
-gnome-terminal -- sh -c "bash -c \". ~/.bashrc; bash -x ./deploy_open_pdks.sh; exec bash\""
-## The content of deploy_open_pdks.sh is listed below
-# ---
-# ## Deploy open_pdks for compiling PDK
-# ### Get the required files for open_pdks
-# git clone https://github.com/RTimothyEdwards/open_pdks && cd open_pdks
-# ### Configure Skywater SKY130nm PDK installation
-# ./configure 	--enable-sky130-pdk=${skywater_dir}	\
-# 		--enable-sram-sky130			\
-# 		--enable-alpha-sky130
-# ### The following steps will take a while to complete, be patience
-# ### Use GNU make to create the target before the PDK installation
-# make -j$(nproc)
-# ### If make process encountered an error, use this command to clean the directory & start over
-# # make distclean
-# sudo make install
-# ---
-# ***
-
-# ------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
