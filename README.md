@@ -39,8 +39,7 @@ The script contains the installation of:
 | 2 | Magic | Layout | 8.3.406 | Magic VLSI Layout tool |
 | | | Dependencies | _ | irsim csh tcsh m4 libx11-dev tk-dev tcl-dev |
 | | | | _ | libcairo2 libcairo2-dev  mesa-common-dev libglu1-mesa-dev |
-| 3 | OpenPDKs | Library builder | 1.0.122 | Rebuild the Open-source PDK into known construct |
-| | Skywater SKY130nm | PDK | 1.0 | Google's Open-source Process Design Kit SKY130nm | 
+| 3 |  Skywater SKY130nm | PDK | 1.0 | Google's Open-source Process Design Kit SKY130nm | 
 | 4 | Docker | Platform | 24.0.2 | Platform for deploying OpenLane VLSI Design flow, optional
 | | OpenLane | VLSI flow | _ | VLSI Design flow, from RTL to GDSII, optional
 
