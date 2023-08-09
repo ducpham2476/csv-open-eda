@@ -15,7 +15,7 @@ cd ~
 ### Get the required files for open_pdks
 git clone https://github.com/RTimothyEdwards/open_pdks && cd open_pdks
 ### Configure Skywater SKY130nm PDK installation
-./configure 	--enable-sky130-pdk=${skywater_dir} --enable-sram-sky130 --enable-alpha-sky130
+./configure 	--enable-sky130-pdk=${skywater_dir}
 ### The following steps will take a while to complete, be patience
 ### Use GNU make to create the target before the PDK installation
 make -j$(nproc)
