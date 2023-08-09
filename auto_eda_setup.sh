@@ -93,17 +93,17 @@ sudo apt-get install	yosys 	-y
 git clone https://github.com/google/skywater-pdk && cd skywater-pdk
 skywater_dir=`pwd`
 ### Use Git submodule to limit the database's target to latest files only
-git submodule init libraries/sky130_fd_io/latest
-git submodule init libraries/sky130_fd_pr/latest
+git submodule init libraries/sky130_fd_sc_ms/latest
+git submodule init libraries/sky130_fd_sc_ls/latest
+git submodule init libraries/sky130_fd_sc_lp/latest
 git submodule init libraries/sky130_fd_sc_hd/latest
 git submodule init libraries/sky130_fd_sc_hvl/latest
 ### The following commands are not required, but you can enable them for a much complex & diverse set of devices that can be used
 ### But enabling these also costs a lot of disk space, make sure that you have >100GB of storage before enabling these
+# git submodule init libraries/sky130_fd_io/latest
+# git submodule init libraries/sky130_fd_pr/latest
 # git submodule init libraries/sky130_fd_sc_hdll/latest
 # git submodule init libraries/sky130_fd_sc_hs/latest
-# git submodule init libraries/sky130_fd_sc_ms/latest
-# git submodule init libraries/sky130_fd_sc_ls/latest
-# git submodule init libraries/sky130_fd_sc_lp/latest
 ### Get the required files 
 git submodule update
 ### Use GNU make to create target files
