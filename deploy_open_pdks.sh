@@ -22,6 +22,7 @@ make -j$(nproc)
 ### If make process encountered an error, use this command to clean the directory & start over
 # make distclean
 sudo make install
+make veryclean
 # 
 cd ~
 
